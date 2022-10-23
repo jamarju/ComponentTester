@@ -630,11 +630,11 @@
 /* display settings */
 #define LCD_DOTS_X       128            /* number of horizontal dots */
 #define LCD_DOTS_Y       64             /* number of vertical dots */
-#define LCD_OFFSET_X                    /* enable x offset of 4 dots */
+//#define LCD_OFFSET_X                    /* enable x offset of 4 dots */
 //#define LCD_FLIP_X                      /* enable horizontal flip */
-#define LCD_FLIP_Y                      /* enable vertical flip */
+//#define LCD_FLIP_Y                      /* enable vertical flip */
 #define LCD_START_Y      0              /* start line (0-63) */
-#define LCD_CONTRAST     22             /* default contrast (0-63) */
+#define LCD_CONTRAST     11             /* default contrast (0-63) */
 /* font and symbols: vertically aligned & flipped, bank-wise grouping */
 //#define FONT_6X8_VF                      /* 6x8 font */
 #define FONT_8X8_VF                     /* 8x8 font */

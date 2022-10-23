@@ -80,7 +80,7 @@
  *    reference
  */
 
-//#define HW_REF25
+#define HW_REF25
 
 
 /*
@@ -89,7 +89,7 @@
  *  - or use >= 5.5 digit DMM to measure the voltage
  */
 
-#define UREF_25           2495
+#define UREF_25           2504
 
 
 /*
@@ -390,7 +390,7 @@
  *  - uncomment to enable
  */
 
-//#define SW_ESR_TOOL
+#define SW_ESR_TOOL
 
 
 /*
@@ -558,7 +558,7 @@
  *  - uncomment to enable
  */
 
-//#define SW_HFE_CURRENT
+#define SW_HFE_CURRENT
 
 
 /*
@@ -743,7 +743,7 @@
  *  - uncomment to enable
  */
 
-//#define UI_AUTOHOLD
+#define UI_AUTOHOLD
 
 
 /*
@@ -807,7 +807,7 @@
  *  - Time between printing the result and starting a new probing cycle.
  */
 
-#define CYCLE_DELAY      3000
+#define CYCLE_DELAY      5000
 
 
 /*
@@ -829,7 +829,7 @@
  *  - uncomment to enable, also adjust timeout (in s)
  */
 
-//#define POWER_OFF_TIMEOUT     60
+#define POWER_OFF_TIMEOUT     60
 
 
 /*
@@ -848,7 +848,7 @@
  *  - uncomment to enable
  */
 
-//#define UI_PINOUT_ALT
+#define UI_PINOUT_ALT
 
 
 /*

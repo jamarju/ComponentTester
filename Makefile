@@ -84,9 +84,9 @@ PARTNO = m328p
 #OPTIONS = -B 10.0
 
 # Diamex ALL-AVR/AVR-Prog
-PROGRAMMER = avrispmkII
-PORT = usb
-OPTIONS = -B 1.0
+#PROGRAMMER = avrispmkII
+#PORT = usb
+#OPTIONS = -B 1.0
 
 # Pololu USB AVR Programmer
 #PROGRAMMER = stk500v2
@@ -113,6 +113,9 @@ OPTIONS = -B 1.0
 #PORT = /dev/ttyACM0
 #OPTIONS = -D -b 115200
 
+# Pololu PGM03A
+PROGRAMMER = avrisp2
+PORT = /dev/cu.usbmodem000289681
 
 #
 #  global settings
