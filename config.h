@@ -539,7 +539,7 @@
  *  - uncomment to enable
  */
 
-//#define SW_CAP_LEAKAGE
+#define SW_CAP_LEAKAGE
 
 
 /*
@@ -1197,8 +1197,8 @@
  */
 
 #define CAP_FACTOR_SMALL      0      /* no correction */ 
-#define CAP_FACTOR_MID        -40    /* -4.0% */
-#define CAP_FACTOR_LARGE      -90    /* -9.0% */
+#define CAP_FACTOR_MID        0 // -40    /* -4.0% */
+#define CAP_FACTOR_LARGE      0 // -90    /* -9.0% */
 
 
 /*
